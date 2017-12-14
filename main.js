@@ -1,14 +1,17 @@
-// 
-
-//         Общие 1ком 2ком 3ком
-
-// Старые  16500 4900 6900 4400
-
-// Тукущие 17000 5050 7050 4550
-
-// За месяц 500  150  150  150   
-// +
-// Общ мес. 50   50/3 50/3 50/3
-
-// Итог     $$$  $$$  $$$  $$$
+let totalOld = $('#totalOld'),
+    firstOld = $('#firstOld'),
+    secondOld = $('#secondOld'),
+    thirdOld = $('#thirdOld'),
+    totalNow = $('#totalNow'),
+    firstNow = $('#firstNow'),
+    secondNow = $('#secondNow'),
+    thirdNow = $('#thirdNow'),
+    monthKW = $('#monthKW'),
+    firstKW = $('#firstKW'),
+    secondKW = $('#secondKW'),
+    thirdKW = $('#thirdKW'),
+    totalMoney = $('#totalMoney'),
+    firstMoney = $('#firstMoney'),
+    secondMoney = $('#secondMoney'),
+    thirdMoney = $('#thirdMoney');
 
