@@ -36,10 +36,10 @@
                         </tr>
                         <tr>
                             <th scope="row">Тукущие</th>
-                            <td id="totalNow">17000</td>
-                            <td id="firstNow">5050</td>
-                            <td id="secondNow">7050</td>
-                            <td id="thirdNow">4550</td>
+                            <td id="totalNow">17 000</td>
+                            <td id="firstNow">5 050</td>
+                            <td id="secondNow">7 050</td>
+                            <td id="thirdNow">4 550</td>
                         </tr>
                         <tr>
                             <th scope="row">За месяц</th>
@@ -50,13 +50,42 @@
                         </tr>
                         <tr>
                             <th scope="row">Итог</th>
-                            <th id="totalMoney">2000р.</th>
+                            <th id="totalMoney">2 000р.</th>
                             <th id="firstMoney">667р.</th>
                             <th id="secondMoney">667р.</th>
                             <th id="thirdMoney">667р.</th>
                         </tr>
                     </tbody>
                 </table>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-sm-3">
+                            <label for="totalNewInput">Новые показания общего счетчика</label>
+                            <input type="number" class="form-control" id="totalNewInput" placeholder="Старые: 17 000 КВ/ч">
+                        </div>
+                        <div class="form-group col-sm-3">
+                            <label for="firstNewInput">Новые показания 1 комната</label>
+                            <input type="number" class="form-control" id="firstNewInput" placeholder="Старые: 5 050 КВ/ч">
+                        </div>
+                        <div class="form-group col-sm-3">
+                            <label for="secondNewInput">Новые показания 2 комната</label>
+                            <input type="number" class="form-control" id="secondNewInput" placeholder="Старые: 7 050 КВ/ч">
+                        </div>
+                        <div class="form-group col-sm-3">
+                            <label for="thirdNewInput">Новые показания 3 комната</label>
+                            <input type="number" class="form-control" id="thirdNewInput" placeholder="Старые: 4 550 КВ/ч">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Сохранить</button>
+                    <button type="reset" class="btn btn-danger">Сбросить</button>
+                </form>
+                <br>
+                <p class="alert alert-primary">При успехе, менять кнопку на зеленую на несколько секунд. Написать "успешно". Либо использовать  alert-success</p>
             </div>
         </div>
     </div>
