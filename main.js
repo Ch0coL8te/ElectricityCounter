@@ -21,4 +21,20 @@ $(function() {
         secondNewInput = $('#secondNewInput'),
         thirdNewInput = $('#thirdNewInput'),
         submitBtn = $('button[type="submit"]');   
+
+    // Placeholders
+    totalNewInput.attr({
+        "placeholder": "Старые: " + totalNow.text() + " кВт·ч"
+    });
+    firstNewInput.attr({
+        "placeholder": "Старые: " + firstNow.text() + " кВт·ч"
+    });
+    secondNewInput.attr({
+        "placeholder": "Старые: " + secondNow.text() + " кВт·ч"
+    });
+    thirdNewInput.attr({
+        "placeholder": "Старые: " + thirdNow.text() + " кВт·ч"
+    });
 });
+
+
